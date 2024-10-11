@@ -19,5 +19,6 @@ Vector cross_product(Vector a, Vector b)
 //     Vector b {1.5, -2, 2.5};
 //     Vector c = cross_product(a, b);
 //     cout << get<0>(c) << " " << get<1>(c) << " " << get<2>(c) << endl;
+//
 //     return 0;
 // }

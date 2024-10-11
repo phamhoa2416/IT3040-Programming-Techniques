@@ -48,23 +48,23 @@ int main()
     }
 
     delete_even(a);
-    cout << "Odd elements of a: ";
+    std::cout << "Odd elements of a: ";
     print_vector(a);
 
     delete_even(b);
-    cout << "Odd elements of b: ";
+    std::cout << "Odd elements of b: ";
     print_vector(b);
 
     sort_decrease(a);
-    cout << "Decreasingly sorted a: ";
+    std::cout << "Decreasingly sorted a: ";
     print_vector(a);
 
     sort_decrease(b);
-    cout << "Decreasingly sorted b: ";
+    std::cout << "Decreasingly sorted b: ";
     print_vector(b);
 
     vector<int> c = merge_vectors(a, b);
-    cout << "Decreasingly sorted c: ";
+    std::cout << "Decreasingly sorted c: ";
     print_vector(c);
 
     return 0;

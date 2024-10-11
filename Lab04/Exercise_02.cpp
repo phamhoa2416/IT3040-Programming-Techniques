@@ -19,6 +19,7 @@ int main()
     Point b {3.5, -7};
     Point c {7.5, 3.5};
     cout << area(a, b, c) << endl;
+    
     return 0;
 }
 */
