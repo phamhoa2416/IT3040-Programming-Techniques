@@ -34,9 +34,9 @@ void print_fuzzy_set(const std::map<T, double> &fuzzy_set)
 {
     cout << "{";
     for (const auto &x : fuzzy_set)
-        std::cout << "(" << x.first << "," << x.second << ") ";
+        cout << "(" << x.first << "," << x.second << ") ";
     cout << "}";
-    std::cout << std::endl;
+    cout << std::endl;
 }
 
 // int main() {
