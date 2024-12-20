@@ -87,7 +87,6 @@ int main() {
                 cerr << "Input format error!" << endl;
                 return 1;
             }
-
             vector<pair<int, int>> walls(n);
             for (int i = 0; i < n; i++) {
                 getline(inputFile, line);
