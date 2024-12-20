@@ -1,0 +1,15 @@
+case=1
+The largest rectangle area is: 45954
+
+case=2
+The largest rectangle area is: 41684
+
+case=3
+The largest rectangle area is: 500000000
+
+case=4
+The largest rectangle area is: 48932400
+
+case=5
+Error: Mismatch in input size. Expected 500000 but got 3
+
