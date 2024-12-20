@@ -28,8 +28,8 @@ int largestRectangleArea(vector<int>& heights) {
 }
 
 int main() {
-    ifstream inputFile("./Tests/Test BTVN 4-12.txt"); 
-    ofstream outputFile("./Tests/Result BTVN 4-12.txt"); 
+    ifstream inputFile("Test BTVN 4-12.txt"); 
+    ofstream outputFile("Result BTVN 4-12.txt"); 
 
     if (!inputFile.is_open() || !outputFile.is_open()) {
         cerr << "Error opening file!" << endl;

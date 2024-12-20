@@ -30,8 +30,8 @@ int countSubStringsWithEqual01(const string& line) {
 }
 
 int main() {
-    ifstream inputFile("./Tests/Test BTVN 4-13.txt"); 
-    ofstream outputFile("./Tests/Result BTVN 4-13.txt"); 
+    ifstream inputFile("Test BTVN 4-13.txt"); 
+    ofstream outputFile("Result BTVN 4-13.txt"); 
 
     if (!inputFile.is_open() || !outputFile.is_open()) {
         cerr << "Error opening file!" << endl;
