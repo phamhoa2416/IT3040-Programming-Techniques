@@ -17,8 +17,7 @@ int countSubStringsWithEqual01(const string& line) {
             balance++;
         else 
             balance--;
-
-        // Check if the balance has been seen before
+            
         if (prefixCount.find(balance) != prefixCount.end()) {
             result += prefixCount[balance]; 
         }
@@ -38,7 +37,7 @@ int main() {
         return 1;
     }
 
-        string line;
+    string line;
     while (getline(inputFile, line)) {
         if (line.substr(0, 5) == "case=") {
             string caseNumber = line;
